@@ -1,0 +1,86 @@
+body {
+  background-image: url('https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+h1, h2, h3, p, td, th, li {
+  color: white !important;
+  
+  
+  
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.navbar, .tocify {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+/* Pestañas de navegación con letras negras 
+
+MENUUUUUUUUU
+
+*/
+/* Color cerulean para el texto de todas las pestañas */
+.nav-tabs > li > a {
+  color: #2FA4E7 !important; /* Cerulean blue */
+  background-color: transparent !important;
+  font-weight: bold;
+  border: none !important;
+}
+
+/* Fondo blanco solo en la pestaña activa */
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  background-color: #ffffff !important;
+  color: #2FA4E7 !important;
+  border: 1px solid #ddd !important;
+  border-bottom: none !important;
+  border-radius: 4px 4px 0 0;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  background-color: rgba(200, 200, 200, 0.85) !important;
+  color: #000000 !important;
+  border: none !important;
+}
+
+.nav-tabs > li > a:hover {
+  background-color: rgba(240, 240, 240, 0.9) !important;
+  color: #000000 !important;
+}
+
+/* CAMBIAR EL COLOR DEL MENU CHIQUITO A NEGRO
+
+/* Estilo del TOC flotante (menú lateral izquierdo) */
+.tocify {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  color: #000000 !important;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+/* Letras negras en el TOC */
+.tocify li, .tocify span, .tocify a {
+  color: #000000 !important;
+}
+
+/* Letra activa resaltada */
+.tocify .tocify-item.active {
+  font-weight: bold;
+  color: #1a1a1a !important;
+}
+
+body, p, li {
+  text-align: justify;
+}
